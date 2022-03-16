@@ -3,6 +3,10 @@ import styled from "styled-components";
 import { FaGithub } from "react-icons/fa";
 
 const Footer = () => {
+
+
+
+
   return (
     <FooterWrapper>
       <p>2022 Alfalmi</p>
