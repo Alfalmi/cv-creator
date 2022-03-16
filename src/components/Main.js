@@ -175,5 +175,7 @@ font-family: 'Roboto', sans-serif;
   @media (max-width: 1600px) {
     flex-direction: column;
     align-items: center;
+
+    
   }
 `

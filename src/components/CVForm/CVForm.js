@@ -46,18 +46,13 @@ const CVFormWrapper = styled.div`
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  width: 100%;
+  width: 80vw;
   padding: 2rem;
   border-radius: 15px;
   background-color: ${({ theme }) => theme.colors.light};
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
  
-  position: sticky;
-  
-  
-  grid-template-columns: 150mm 60mm;
-  grid-template-rows: 35mm 262mm;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
 `;
 
 export default CVForm;
