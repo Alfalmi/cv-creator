@@ -46,7 +46,7 @@ const CVFormWrapper = styled.div`
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  width: 215mm;
+  width: 200mm;
   padding: 2rem;
   border-radius: 15px;
   background-color: ${({ theme }) => theme.colors.light};
