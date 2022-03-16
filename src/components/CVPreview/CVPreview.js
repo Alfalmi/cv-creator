@@ -28,7 +28,7 @@ export default CVPreview;
 
 const CVPreviewWrapper = styled.div`
   width: 80vw;
-  height: 297mm;
+  
   position: sticky;
   top: 10px;
   display: grid;
