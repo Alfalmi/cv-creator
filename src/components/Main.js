@@ -162,6 +162,7 @@ const Main = () => {
 export default Main
 
 const MainWrapper = styled.main`
+font-family: 'Roboto', sans-serif;
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
