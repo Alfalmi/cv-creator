@@ -27,10 +27,22 @@ class CVPreview extends Component {
 export default CVPreview;
 
 const CVPreviewWrapper = styled.div`
-  width: 100%;
+  width: 800px;
   
   position: sticky;
   top: 10px;
   display: grid;
+
+  @media (max-width: 800px) {
+    width: 600px;
+  }
+ 
+  @media (max-width: 600px) {
+    width: 400px; 
+  }
+
+  @media (max-width: 400px) {
+    width: 300px; 
+  }
  
 `;
