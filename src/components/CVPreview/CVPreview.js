@@ -27,7 +27,7 @@ class CVPreview extends Component {
 export default CVPreview;
 
 const CVPreviewWrapper = styled.div`
-  width: 80vw;
+  width: 100%;
   
   position: sticky;
   top: 10px;
