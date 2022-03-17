@@ -3,8 +3,8 @@ import examplePhoto from '../../assets/example_photo.jpg'
 
 const exampleCV = {
   personalInfo: {
-    firstName: 'John',
-    lastName: 'Doe',
+    firstName: 'Felix',
+    lastName: 'Kübler',
     title: 'Frontend Developer',
     photo: examplePhoto,
     address: '123 Main St',
