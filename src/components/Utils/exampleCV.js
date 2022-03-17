@@ -3,22 +3,22 @@ import examplePhoto from '../../assets/example_photo.jpg'
 
 const exampleCV = {
   personalInfo: {
-    firstName: 'Diego',
-    lastName: 'Alvarez Leon',
-    title: 'Pre-silicon validation',
+    firstName: 'John',
+    lastName: 'Doe',
+    title: 'Frontend Developer',
     photo: examplePhoto,
-    address: 'Guadalajara, Jalisco, Mexico',
+    address: '123 Main St',
     phoneNumber: '123456789',
-    email: 'diegoiee@gmail.com',
+    email: 'cyg@gmail.com',
     description:
       'lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
   },
   experience: [
     {
       id: uuidv4(),
-      position: 'Pre-silicon validation',
-      company: 'Intel',
-      city: 'Guadalajara',
+      position: 'Frontend Developer',
+      company: 'Google',
+      city: 'Munich',
       from: '2013',
       to: 'Present',
     },
@@ -50,19 +50,19 @@ const exampleCV = {
   education: [
     {
       id: uuidv4(),
-      universityName: 'Cinestav',
-      city: 'Guadalajara',
+      universityName: 'University name',
+      city: 'City name',
       degree: 'Master',
-      subject: 'Telecomunications',
+      subject: 'Subject',
       from: '2009',
       to: '2012',
     },
     {
       id: uuidv4(),
       universityName: 'Itson',
-      city: 'Obregon',
-      degree: 'Engineering',
-      subject: 'Electronic',
+      city: 'Munich',
+      degree: 'Bachelor',
+      subject: 'Telecomunications',
       from: '2004',
       to: '2009',
     },
