@@ -27,12 +27,12 @@ class CVPreview extends Component {
 export default CVPreview;
 
 const CVPreviewWrapper = styled.div`
-  width: 220mm;
-  
+  width: 210mm;
+  height: 297mm;
   position: sticky;
   top: 10px;
   display: grid;
-
-  
- 
+  grid-template-columns: 150mm 60mm;
+  grid-template-rows: 35mm 262mm;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 `;

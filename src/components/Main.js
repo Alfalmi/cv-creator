@@ -162,7 +162,6 @@ const Main = () => {
 export default Main
 
 const MainWrapper = styled.main`
-font-family: 'Roboto', sans-serif;
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
@@ -175,7 +174,5 @@ font-family: 'Roboto', sans-serif;
   @media (max-width: 1600px) {
     flex-direction: column;
     align-items: center;
-
-    
   }
 `
