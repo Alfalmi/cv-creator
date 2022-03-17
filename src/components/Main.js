@@ -174,5 +174,8 @@ const MainWrapper = styled.main`
   @media (max-width: 1600px) {
     flex-direction: column;
     align-items: center;
+    justify-content: center;
   }
+
+
 `
