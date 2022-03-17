@@ -69,7 +69,7 @@ const CVFormWrapper = styled.div`
   @media (max-width: 500px) {
     
     width: 180%;
-    margin-left: 45%;
+    margin-left: 40%;
     
   }
   @media (max-width: 450px) {
