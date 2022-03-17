@@ -47,22 +47,30 @@ const CVFormWrapper = styled.div`
   flex-direction: column;
   gap: 1rem;
   width: 800px;
+  margin-left: auto;
   padding: 2rem;
   border-radius: 15px;
   background-color: ${({ theme }) => theme.colors.light};
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
   @media (max-width: 800px) {
+    width: 750px;
+  }
+  @media (max-width: 800px) {
+    width: 700px;
+  }
+ 
+  @media (max-width: 700px) {
+    
+    width: 600px; 
+  }
+  @media (max-width: 600px) {
+    width: 500px;
+  }
+  @media (max-width: 500px) {
     width: 600px;
   }
  
-  @media (max-width: 600px) {
-    width: 400px; 
-  }
-
-  @media (max-width: 400px) {
-    width: 300px; 
-  }
 
 `;
 
