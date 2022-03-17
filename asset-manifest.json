@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.js": "/cv-creator/static/js/main.f6ad110b.js",
+    "main.js": "/cv-creator/static/js/main.f67fa88c.js",
     "static/media/example_photo.jpg": "/cv-creator/static/media/example_photo.f63f827cdd975addad54.jpg",
     "static/media/empty_avatar.png": "/cv-creator/static/media/empty_avatar.cedf234c0ac4761153d5.png",
     "index.html": "/cv-creator/index.html",
-    "main.f6ad110b.js.map": "/cv-creator/static/js/main.f6ad110b.js.map"
+    "main.f67fa88c.js.map": "/cv-creator/static/js/main.f67fa88c.js.map"
   },
   "entrypoints": [
-    "static/js/main.f6ad110b.js"
+    "static/js/main.f67fa88c.js"
   ]
 }
