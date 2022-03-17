@@ -51,6 +51,46 @@ const CVFormWrapper = styled.div`
   border-radius: 15px;
   background-color: ${({ theme }) => theme.colors.light};
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+  @media (max-width: 800px) {
+    
+    width: 100%;
+    position: relative;
+    
+    justify-content: center;
+  }
+
+  @media (max-width: 600px) {
+    
+    width: 140%;
+    margin-left: 20%;
+    
+  }
+  @media (max-width: 500px) {
+    
+    width: 180%;
+    margin-left: 45%;
+    
+  }
+  @media (max-width: 450px) {
+    
+    width: 200%;
+    margin-left: 60%;
+    
+  }
+
+  @media (max-width: 400px) {
+    
+    width: 240%;
+    margin-left: 80%;
+    
+  }
+  @media (max-width: 350px) {
+    
+    width: 300%;
+    margin-left: 120%;
+    
+  }
 `;
 
 export default CVForm;
